@@ -67,6 +67,10 @@ body {
   min-height: 100vh;
 }
 
+.main-container {
+  padding: 37px 56px;
+}
+
 .topbar {
   padding: 24px 56px;
   background-color: white;
@@ -105,6 +109,7 @@ body {
   display: flex;
   align-items: center;
   gap: 6px;
+  flex-direction: row;
 }
 
 .search {
@@ -114,6 +119,7 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
+  flex-direction: row;
   flex: 0 1 360px;
 }
 .search-input {

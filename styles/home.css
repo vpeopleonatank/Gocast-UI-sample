@@ -1,3 +1,23 @@
-
+.host-heading {
+  font-size: 16px;
+  font-weight: 600;
+  color: hsl(220, 10%, 12%);
+  margin-bottom: 20px;
+}
+.host-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.host-item {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  flex-direction: column;
+}
+.host-name {
+  font-size: 14px;
+  color: hsl(216, 3%, 38%);
+}
 
 /*# sourceMappingURL=home.css.map */

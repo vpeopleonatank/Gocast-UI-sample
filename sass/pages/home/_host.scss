@@ -1,0 +1,19 @@
+@use "../../abstracts" as abst;
+.host {
+  &-heading {
+    font-size: 16px;
+    @include abst.fw("semibold");
+    color: abst.$text-black1;
+    margin-bottom: 20px;
+  }
+  &-list {
+    @include abst.flexBox(flex-start, space-between, null, null);
+  }
+  &-item {
+    @include abst.flexBox(center, null, 7px, column);
+  }
+  &-name {
+    font-size: 14px;
+    color: abst.$gray1;
+  }
+}
